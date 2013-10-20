@@ -1,4 +1,8 @@
 KelloggCafe::Application.routes.draw do
+  get("/login", { :controller => "login", :action => "authenticate"})
+end
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
