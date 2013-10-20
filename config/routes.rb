@@ -1,5 +1,6 @@
 KelloggCafe::Application.routes.draw do
   get("/login", { :controller => "login", :action => "authenticate"})
+   get("/signup", { :controller => "signup", :action => "create_new_user"})
 end
 
 
